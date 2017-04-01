@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+<style name="title">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:gravity">end</item>
+    <item name="android:padding">5dp</item>
+    <item name="android:fontFamily">monospace</item>
+    <item name="android:textAllCaps">true</item>
+    <item name="android:textSize">30sp</item>
+</style>
+    <style name="title.away">
+        <item name="android:gravity">start</item>
+    </style>
+    <style name="score">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/toproundbackground</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/zero</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/large_text</item>
+    </style>
+    <style name="score.plus">
+        <item name="android:text">@string/plus</item>
+        <item name="android:textSize">@dimen/large_plus</item>
+        <item name="android:background">@drawable/ripple_effect</item>
+    </style>
+    <style name="image">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/toproundbackground</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:src">@drawable/corner</item>
+    </style>
+    <style name="image.2">
+        <item name="android:src">@drawable/footballyellow</item>
+    </style>
+    <style name="image.3">
+        <item name="android:src">@drawable/footballred</item>
+    </style>
+    <style name="plus_bt">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/left_ripple_effect</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:text">@string/plus</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/small_font</item>
+    </style>
+    <style name="plus_bt.zero">
+        <item name="android:background">@drawable/roundbackgroundcenter</item>
+        <item name="android:text">@string/zero</item>
+    </style>
+    <style name="plus_bt.right">
+        <item name="android:background">@drawable/right_ripple_effect</item>
+    </style>
+</resources>

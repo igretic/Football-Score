@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Football Score</string>
+    <string name="home_title">Home</string>
+    <string name="away_title">Away</string>
+    <string name="zero">0</string>
+    <string name="colon">:</string>
+    <string name="plus">+</string>
+    <string name="num_corners">Number of corners</string>
+    <string name="num_yellow">Number of yellow cards</string>
+    <string name="num_red">Number of red cards</string>
+    <string name="reset">Reset</string>
+</resources>
